@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RunAway – Løpeturer til ikoniske destinasjoner</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">RUNAWAY</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Åpne meny">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#destinasjoner">Destinasjoner</a></li>
+        <li><a href="#pakker">Pakker</a></li>
+        <li><a href="#om-oss">Om oss</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Løpeturer · Verden rundt</span>
+      <h1>Løp verden rundt med oss</h1>
+      <p>Vi arrangerer løpeturer til ikoniske destinasjoner verden rundt</p>
+      <div class="hero-actions">
+        <a href="#destinasjoner" class="btn btn-primary">Utforsk destinasjoner</a>
+        <a href="#kontakt" class="btn btn-outline">Ta kontakt</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <main class="light-content">
+
+  <!-- Destinasjoner -->
+  <section class="section" id="destinasjoner">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Destinasjoner</span>
+        <h2>Løp der drømmene bor</h2>
+        <p>Fra tempelruiner til arktisk natur – opplev verden på løpeføtter.</p>
+      </div>
+      <div class="destinations-grid">
+
+        <article class="destination-card" onclick="window.location='angkor.html'" style="cursor:pointer;">
+          <div class="card-image card-angkor"></div>
+          <div class="card-body">
+            <span class="card-country">Kambodsja</span>
+            <h3>Angkor Wat</h3>
+            <p>Løp blant tusenårige templer i soloppgangens gyldne lys.</p>
+          </div>
+        </article>
+
+        <article class="destination-card" onclick="window.location='tokyo.html'" style="cursor:pointer;">
+          <div class="card-image card-tokyo"></div>
+          <div class="card-body">
+            <span class="card-country">Japan</span>
+            <h3>Tokyo</h3>
+            <p>Opplev neon, tradisjon og pulserende storbyløp i en verdensmetropol.</p>
+          </div>
+        </article>
+
+        <article class="destination-card" onclick="window.location='tromso.html'" style="cursor:pointer;">
+          <div class="card-image card-tromso"></div>
+          <div class="card-body">
+            <span class="card-country">Norge</span>
+            <h3>Tromsø</h3>
+            <p>Løp under nordlyset med arktisk natur som ditt spektakulære bakteppe.</p>
+          </div>
+        </article>
+
+        <article class="destination-card" onclick="window.location='honolulu.html'" style="cursor:pointer;">
+          <div class="card-image card-honolulu"></div>
+          <div class="card-body">
+            <span class="card-country">Hawaii</span>
+            <h3>Honolulu</h3>
+            <p>Paradisstrander, vulkanske utsikter og tropisk løpeglede i Stillehavet.</p>
+          </div>
+        </article>
+
+        <article class="destination-card" onclick="window.location='chamonix.html'" style="cursor:pointer;">
+          <div class="card-image card-chamonix"></div>
+          <div class="card-body">
+            <span class="card-country">Frankrike</span>
+            <h3>Chamonix</h3>
+            <p>Utfordrende fjelløp med Mont Blanc som majestetisk kulisse.</p>
+          </div>
+        </article>
+
+        <article class="destination-card" onclick="window.location='capetown.html'" style="cursor:pointer;">
+          <div class="card-image card-capetown"></div>
+          <div class="card-body">
+            <span class="card-country">Sør-Afrika</span>
+            <h3>Cape Town</h3>
+            <p>Løp langs kysten med Tafelberg rett bak deg – en opplevelse for livet.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pakker -->
+  <section class="section section-alt" id="pakker">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pakker</span>
+        <h2>Finn din neste løpeeventyr</h2>
+        <p>Alle pakker inkluderer guide, overnatting og uforglemmelige løperuter.</p>
+      </div>
+      <div class="packages-grid">
+        <div class="package-card">
+          <h3>Weekend Escape</h3>
+          <p class="package-duration">3 dager</p>
+          <p>Perfekt for en kort, intens opplevelse med fokus på én destinasjon.</p>
+          <span class="package-price">Fra 12 900 kr</span>
+        </div>
+        <div class="package-card package-featured">
+          <span class="featured-badge">Mest populær</span>
+          <h3>Explorer</h3>
+          <p class="package-duration">7 dager</p>
+          <p>Full uke med daglige løp, kulturelle opplevelser og lokal mat.</p>
+          <span class="package-price">Fra 24 900 kr</span>
+        </div>
+        <div class="package-card">
+          <h3>Ultimate</h3>
+          <p class="package-duration">14 dager</p>
+          <p>Den ultimate løpeferien med flere destinasjoner og ekstra utfordringer.</p>
+          <span class="package-price">Fra 44 900 kr</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Om oss -->
+  <section class="section" id="om-oss">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-tag">Om oss</span>
+        <h2>Vi tror på kraften i å løpe sammen</h2>
+        <p>RunAway ble grunnlagt av løpere som elsker å reise. Vi kombinerer lidenskapen for løping med oppdagelseslyst, og skaper opplevelser som går langt utover startstreken.</p>
+        <p>Enten du er erfaren maratonløper eller nettopp har funnet løpegleden, har vi en tur for deg. Våre erfarne guider kjenner hver destinasjon inn og ut.</p>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Løpere</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Destinasjoner</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">15</span>
+            <span class="stat-label">Land</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-image"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section class="section section-contact" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Kontakt</span>
+        <h2>Klar for neste eventyr?</h2>
+        <p>Send oss en melding, så hjelper vi deg å finne den perfekte løpeturen.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" placeholder="Ditt navn" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" placeholder="din@epost.no" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Melding</label>
+          <textarea id="message" name="message" rows="5" placeholder="Fortell oss om drømmereisen din..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send melding</button>
+      </form>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-label">E-post</span>
+          <a href="mailto:hei@runaway.no">hei@runaway.no</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Telefon</span>
+          <a href="tel:+4712345678">+47 123 45 678</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Adresse</span>
+          <span>Storgata 1, 0182 Oslo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">RUNAWAY</a>
+      <p>&copy; 2026 RunAway. Alle rettigheter reservert.</p>
+      <ul class="footer-links">
+        <li><a href="#destinasjoner">Destinasjoner</a></li>
+        <li><a href="#pakker">Pakker</a></li>
+        <li><a href="#om-oss">Om oss</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  </main>
+
+  <!-- Chatbot -->
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-window" id="chatWindow" aria-hidden="true">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <span class="chat-header-title">RunAway Assistent</span>
+          <span class="chat-header-status">Alltid klar til å hjelpe</span>
+        </div>
+        <button class="chat-close" id="chatClose" aria-label="Lukk chat">&times;</button>
+      </div>
+      <div class="chat-messages" id="chatMessages"></div>
+      <form class="chat-input-area" id="chatForm">
+        <input
+          type="text"
+          id="chatInput"
+          placeholder="Spør om destinasjoner, pakker..."
+          autocomplete="off"
+          required
+        >
+        <button type="submit" class="chat-send" id="chatSend" aria-label="Send melding">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <button class="chat-bubble" id="chatBubble" aria-label="Åpne chat">
+      <svg class="chat-icon-open" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+      <svg class="chat-icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
