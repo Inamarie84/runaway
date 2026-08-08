@@ -1,4 +1,4 @@
-const API_KEY = "din-api-nøkkel-her"
+
 const SYSTEM_PROMPT =
   "Du er en hjelpsom reiseassistent for RunAway – et " +
   "selskap som arrangerer løpeturer til ikoniske " +
